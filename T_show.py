@@ -85,7 +85,7 @@ Show Names: ''')
             print('''
                                 ''' * 50)
         else:
-            print(f'Sorry, But there Are Not Enough Tickets Left. Tickets Left = '
+            print(f'Sorry, there are not enough tickets left. Tickets Left = '
                   f'{show[query.lower()]}. ')
             input('Press Enter: ')
             print('''
@@ -111,7 +111,7 @@ Show Names: ''')
         tickets_total += show[i]
     if tickets_total == 0:
         print(
-            'No Show Tickets Are Left. Sorry For the Inconvenience... :(')
+            'No Show Tickets Are Left. Sorry For the Inconvenience caused... :(')
         input()
         print('Exiting')
         print(f'Show Tickets Left:')
